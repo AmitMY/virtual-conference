@@ -1,1 +1,15 @@
-<p>main works!</p>
+<a-scene background="color: #ECECEC">
+  <a-entity camera look-controls wasd-controls="acceleration: 300"></a-entity>
+
+  <a-plane position="0 -2 -4" rotation="-90 0 0" width="20" height="20" color="#7BC8A4" shadow></a-plane>
+  <a-entity position="0 1 -5">
+    <a-image src="assets/posters/example1.jpg" height="4" width="5.6" side="front"></a-image>
+  </a-entity>
+  <a-entity position="-6 1 -4" rotation="0 45 0">
+    <a-image src="assets/posters/example2.jpg" height="5.6" width="4.2" side="front"></a-image>
+  </a-entity>
+
+  <a-entity position="6 1 -4" rotation="0 315 0">
+    <a-image src="assets/posters/example3.jpg" height="5.6" width="4.2" side="front"></a-image>
+  </a-entity>
+</a-scene>
