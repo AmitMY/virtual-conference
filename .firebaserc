@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "virtual-conference-viewer": {
+      "hosting": {
+        "virtual-conference": [
+          "virtual-conference-viewer"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "virtual-conference-viewer"
+  }
+}
